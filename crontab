@@ -1,0 +1,1 @@
+@reboot /bin/bash /home/pi/MQTT_Thermostat/tmux.sh
