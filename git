@@ -1,0 +1,27 @@
+ssh-keygen -t rsa -C "thomas.moeller.r@gmail.com"
+
+git remote -v		# Anzeigen von https oder git verbindung, es darf keine https verbindung drin sein, sondern eine git-verbindung
+
+git remote rm origin
+
+git remote add origin git@github.com:ThomasMoellerR/MQTT_Thermostat.git
+
+
+
+
+git pull origin master
+
+
+
+
+
+git clone git@github.com:ThomasMoellerR/MQTT_Thermostat.git
+
+
+git branch # show branches
+
+git branch newbranch # create new branch
+
+git checkout newbranch # make it active
+
+git log
