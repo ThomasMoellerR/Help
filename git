@@ -1,4 +1,4 @@
-ssh-keygen -t rsa -C "thomas.moeller.r@gmail.com"
+ssh-keygen -t rsa
 
 git remote -v		# Anzeigen von https oder git verbindung, es darf keine https verbindung drin sein, sondern eine git-verbindung
 
