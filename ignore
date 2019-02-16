@@ -1,0 +1,10 @@
+def read_ignore():
+    f = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"ignore"), "r")
+    ret = f.read()
+    f.close()
+    return ret
+
+def write_ignore(text):
+    f = open(os.path.join(os.path.dirname(os.path.abspath(__file__)),"ignore"), "w")
+    f.write(text)
+    f.close()
