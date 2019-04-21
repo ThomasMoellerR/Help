@@ -27,3 +27,12 @@ git branch newbranch # create new branch
 git checkout newbranch # make it active
 
 git log
+
+
+// Developing
+
+git branch develop    # create a new branch called "develop"
+
+git branch            # shows all available branches
+
+git checkout develop  # switches to branch "develop"
