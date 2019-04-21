@@ -31,8 +31,10 @@ git log
 
 // Developing
 
-git branch develop    # create a new branch called "develop"
-
-git branch            # shows all available branches
-
-git checkout develop  # switches to branch "develop"
+1. git branch develop    # create a new branch called "develop"
+2. git branch            # shows all available branches
+3. git checkout develop  # switches to branch "develop"
+4. -make some changes in Readme.txt
+5. git status            # shows a in red that the file Readme.txt was changed
+6. git commit -am "added somethin new"    # create a commit
+7. git log              # shows newest entry on the top -> type "q" for leaving
