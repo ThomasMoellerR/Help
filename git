@@ -39,7 +39,7 @@ git log
 6. git commit -am "added somethin new"    # create a commit
 7. git log               # shows newest entry on the top -> type "q" for leaving
 8. git checkout master   # go back to snapshot master
-
+9. git merge develop
 
 
 
